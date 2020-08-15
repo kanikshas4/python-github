@@ -1,0 +1,94 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Aug 10 12:00:05 2020
+
+@author: kanikshasharma
+"""
+
+
+#%%
+name=(input("enter employee name"))
+salary=(input("enter salary"))
+print("printing employee details")
+print(name,salary)
+#%%
+str1="welcome to the python clsss"
+str2="python"
+if str2 in str1:
+    print("present")
+else:
+    print("not present")
+#%%
+str1="victory"
+str2="vi"
+if "vi" in "victory":
+    print("present")
+else:
+    print("not present")
+#%%
+str1="victory"
+str2="m"
+if str2 not in str1:
+    print("not present")
+else:
+    print("present")
+#%%
+str1="welcome to the class"
+for i in str:
+    print(i)
+#%%
+str1="welcome to class"
+i=0
+while i<len(str1):
+    letter=str1[i]
+    print(letter)
+    i=i+1
+#%%
+str1="hello"
+str2="a"
+str3="e"
+str4="i"
+str5="o"
+str6="u"
+if str2 or str3 or str4 or str5 or str6 in str1:
+    print("vowel is present")
+else:
+    print("vowel not present")
+#%%
+str1="hello"
+str2="a"
+str3="e"
+str4="i"
+str5="o"
+str6="u"
+if str2 in str1:
+    print("%s is present ",)
+#%%
+program="b.tech AI"
+batch=2023
+print("my program is %s and batch is %d" ,%(program,batch))
+#%%
+password=input("enter the password")
+print(str.replace(password,"***********"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    

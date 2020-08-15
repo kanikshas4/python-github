@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Aug  6 10:19:27 2020
+
+@author: kanikshasharma
+"""
+
+
+cube=lambda x:x*x*x
+print(cube(5))
+#%%
+def cube1(a):
+   if(a==0):
+       return 0
+   else:
+       return a
+cube=lambda x:x*x*x
+print("cube of the number is",cube1(cube(5)))
+#%%
+from math import pi
+print(pi)
+#%%
+sq= lambda x:x*x
+print(sq(3))
+#%%
+sq.root= lambda x:x**1/2
+print(sq.root(16))
+#%%
+def fun1(x,y,z=0):
+    sum=x+y+z
+    print(sum)
+fun1(2,3,4)
+fun1(2,3)
+fun1(x=6,y=8,z=9)
+
+#%%
+
+
+    
+    
